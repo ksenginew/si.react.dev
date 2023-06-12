@@ -4,22 +4,22 @@ title: Installation
 
 <Intro>
 
-React has been designed from the start for gradual adoption. You can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to an HTML page, or start a complex React-powered app, this section will help you get started.
+ප්‍රතික්‍රියා ආරම්භයේ සිට ක්‍රමයෙන් සම්මත කර ගැනීම සඳහා නිර්මාණය කර ඇත. ඔබට අවශ්‍ය ප්‍රමාණයට React ප්‍රමාණය අඩුවෙන් හෝ ප්‍රමාණයෙන් භාවිතා කළ හැක. ඔබට ප්‍රතික්‍රියා වල රසයක් ලබා ගැනීමට, HTML පිටුවකට යම් අන්තර්ක්‍රියාකාරීත්වයක් එක් කිරීමට හෝ සංකීර්ණ ප්‍රතික්‍රියා බලැති යෙදුමක් ආරම්භ කිරීමට අවශ්‍ය වුවද, මෙම කොටස ඔබට ආරම්භ කිරීමට උදවු වනු ඇත.
 
 </Intro>
 
 <YouWillLearn isChapter={true}>
 
-* [How to start a new React project](/learn/start-a-new-react-project)
-* [How to add React to an existing project](/learn/add-react-to-an-existing-project)
-* [How to set up your editor](/learn/editor-setup)
-* [How to install React Developer Tools](/learn/react-developer-tools)
+-   [නව ප්‍රතික්‍රියා ව්‍යාපෘතියක් ආරම්භ කරන්නේ කෙසේද](/learn/start-a-new-react-project)
+-   [පවතින ව්‍යාපෘතියකට ප්‍රතික්‍රියා එකතු කරන්නේ කෙසේද](/learn/add-react-to-an-existing-project)
+-   [ඔබේ සංස්කාරකය සකසන්නේ කෙසේද](/learn/editor-setup)
+-   [ප්‍රතික්‍රියා සංවර්ධක මෙවලම් ස්ථාපනය කරන්නේ කෙසේද](/learn/react-developer-tools)
 
 </YouWillLearn>
 
-## Try React {/*try-react*/}
+## ප්‍රතිචාර දැක්වීමට උත්සාහ කරන්න {/_උත්සාහ-ප්‍රතික්‍රියා කරන්න_/}
 
-You don't need to install anything to play with React. Try editing this sandbox!
+React සමඟ සෙල්ලම් කිරීමට ඔබට කිසිවක් ස්ථාපනය කිරීමට අවශ්‍ය නැත. මෙම වැලිපිල්ල සංස්කරණය කිරීමට උත්සාහ කරන්න!
 
 <Sandpack>
 
@@ -35,23 +35,22 @@ export default function App() {
 
 </Sandpack>
 
-You can edit it directly or open it in a new tab by pressing the "Fork" button in the upper right corner.
+ඉහළ දකුණු කෙළවරේ ඇති "ෆෝක්" බොත්තම එබීමෙන් ඔබට එය කෙලින්ම සංස්කරණය කිරීමට හෝ නව ටැබ් එකකින් විවෘත කිරීමට හැකිය.
 
-Most pages in the React documentation contain sandboxes like this. Outside of the React documentation, there are many online sandboxes that support React: for example, [CodeSandbox](https://codesandbox.io/s/new), [StackBlitz](https://stackblitz.com/fork/react), or [CodePen.](https://codepen.io/pen?&editors=0010&layout=left&prefill_data_id=3f4569d1-1b11-4bce-bd46-89090eed5ddb)
+ප්‍රතික්‍රියා ලේඛනයේ බොහෝ පිටු වල මෙවැනි වැලි පෙට්ටි අඩංගු වේ. ප්‍රතික්‍රියා ලේඛනයෙන් පිටත, ප්‍රතික්‍රියා සඳහා සහය දක්වන බොහෝ සබැඳි වැලි පෙට්ටි තිබේ: උදාහරණයක් ලෙස,[කේත සෑන්ඩ්බොක්ස්](https://codesandbox.io/s/new),[StackBlitz](https://stackblitz.com/fork/react), හෝ[CodePen.](https://codepen.io/pen?&editors=0010&layout=left&prefill_data_id=3f4569d1-1b11-4bce-bd46-89090eed5ddb)
 
-### Try React locally {/*try-react-locally*/}
+### දේශීයව ප්‍රතිචාර දැක්වීමට උත්සාහ කරන්න {/_උත්සාහ-ප්‍රතික්‍රියා-දේශීයව_/}
 
-To try React locally on your computer, [download this HTML page.](https://gist.githubusercontent.com/gaearon/0275b1e1518599bbeafcde4722e79ed1/raw/db72dcbf3384ee1708c4a07d3be79860db04bff0/example.html) Open it in your editor and in your browser!
+ඔබේ පරිගණකයේ දේශීයව ප්‍රතිචාර දැක්වීමට උත්සාහ කිරීමට,[මෙම HTML පිටුව බාගන්න.](https://gist.githubusercontent.com/gaearon/0275b1e1518599bbeafcde4722e79ed1/raw/db72dcbf3384ee1708c4a07d3be79860db04bff0/example.html)එය ඔබගේ සංස්කාරකයේ සහ ඔබගේ බ්‍රවුසරයේ විවෘත කරන්න!
 
-## Start a new React project {/*start-a-new-react-project*/}
+## නව ප්‍රතික්‍රියා ව්‍යාපෘතියක් ආරම්භ කරන්න {/_නව-ප්‍රතික්‍රියා-ව්‍යාපෘතියක් ආරම්භ කරන්න_/}
 
-If you want to build an app or a website fully with React, [start a new React project.](/learn/start-a-new-react-project)
+ඔබට React සමඟ සම්පුර්ණයෙන්ම යෙදුමක් හෝ වෙබ් අඩවියක් තැනීමට අවශ්‍ය නම්,[නව ප්‍රතික්‍රියා ව්‍යාපෘතියක් ආරම්භ කරන්න.](/learn/start-a-new-react-project)
 
-## Add React to an existing project {/*add-react-to-an-existing-project*/}
+## පවතින ව්‍යාපෘතියකට ප්‍රතිචාරය එක් කරන්න {/_පවතින ව්‍යාපෘතියකට ප්‍රතික්‍රියා එකතු කරන්න_/}
 
-If want to try using React in your existing app or a website, [add React to an existing project.](/learn/add-react-to-an-existing-project)
+ඔබගේ පවතින යෙදුමේ හෝ වෙබ් අඩවියක React භාවිතා කිරීමට උත්සාහ කිරීමට අවශ්‍ය නම්,[පවතින ව්‍යාපෘතියකට ප්‍රතික්‍රියා එක් කරන්න.](/learn/add-react-to-an-existing-project)
 
-## Next steps {/*next-steps*/}
+## මීළඟ පියවර {/_ඊළඟ පියවර_/}
 
-Head to the [Quick Start](/learn) guide for a tour of the most important React concepts you will encounter every day.
-
+වෙත යන්න[ඉක්මන් ආරම්භය](/learn)ඔබට දිනපතා හමුවන වැදගත්ම ප්‍රතික්‍රියා සංකල්ප පිළිබඳ සංචාරයක් සඳහා මාර්ගෝපදේශය.
